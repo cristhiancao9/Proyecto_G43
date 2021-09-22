@@ -32,9 +32,12 @@ body {
   color: white;
   text-decoration: none;
   padding: 1rem;
+  font-family: cursive;
+  font-size: 1.8rem;
 }
 .navegacion-principal a:hover {
-  background-color: #828282;
+  /* background-color: #126ed8; */
+  background-color: turquoise;
 }
 .contenedor {
   max-width: 120rem;
@@ -58,7 +61,7 @@ body {
   align-items: center;
 }
 .boton {
-  background-color: #828282;
+  background-color: turquoise;
   color: white;
   padding: 1rem 3rem;
   margin-top: 1rem;
@@ -69,6 +72,9 @@ body {
   border-radius: 0.5rem;
   width: 90%;
   text-align: center;
+}
+.boton:hover {
+  background-color: #126ed8;
 }
 @media (min-width: 768px) {
   .boton {
@@ -85,6 +91,7 @@ body {
   border-radius: 15px;
   box-shadow: -1rem 0 3rem black;
 }
+
 .card2 {
   display: flex;
   justify-content: center;
@@ -94,4 +101,65 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+/*---------Add Store---------*/
+.card-add-store {
+  margin-top: 170px;
+  background-image: url("../img/img_principal3.jpg");
+  width: 40rem;
+  height: 35rem;
+  border-radius: 0.5rem;
+  border: 5px solid hsla(224, 81%, 45%, 0.98);
+  border-radius: 15px;
+  box-shadow: -1rem 0 3rem black;
+}
+.inp {
+  width: 17rem;
+  height: 2rem;
+}
+.card2-add-store {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+}
+.titulo {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  /*   color: hsla(224, 81%, 45%, 0.98); */
+  color: white;
+}
+form {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 12px;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 115px;
+  margin-top: 30px;
+  color: white;
+  font-family: cursive;
+  background-color: turquoise;
+  border-radius: 0.7rem;
+}
+/*-----------------Login--------------------*/
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card2-add-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: white;
+  font-weight: bold;
 }
