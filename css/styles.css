@@ -10,9 +10,43 @@ html {
 body {
   font-size: 16px; /*1 rem -- 10px*/
   background-image: linear-gradient(to top, #828282 0%, #131212);
+  margin: 0;
+  padding: 0;
 }
 .nav-bg {
   background-color: hsla(224, 81%, 45%, 0.98);
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 25px 15px;
+  font-weight: bold;
+}
+.content-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
 }
 .navegacion-principal {
   display: flex;
@@ -35,7 +69,7 @@ body {
   font-family: cursive;
   font-size: 1.8rem;
 }
-.navegacion-principal a:hover {
+.nav-bg a:hover {
   /* background-color: #126ed8; */
   background-color: turquoise;
 }
@@ -102,7 +136,12 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
-
+footer {
+  text-align: center;
+  background: hsla(224, 81%, 45%, 0.98);
+  padding: 5px;
+  font-weight: 700;
+}
 /*---------Add Store---------*/
 .card-add-store {
   margin-top: 170px;
