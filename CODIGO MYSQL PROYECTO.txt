@@ -1,0 +1,42 @@
+CREATE SCHEMA IF NOT EXISTS `modeloReelacional` DEFAULT CHARACTER SET big5 ;
+USE `modeloReelacional` ;
+
+-- -----------------------------------------------------
+-- Table `modeloReelacional`.`categoria producto`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `modeloReelacional`.`categoria producto` (
+  `id_categoria` INT NOT NULL COMMENT '',
+  `nombre_categoria` VARCHAR(45) NULL COMMENT '',
+  `codigo` VARCHAR(45) NULL COMMENT '',
+  `descripcion` VARCHAR(45) NULL COMMENT '',
+  `precio unitario` VARCHAR(45) NULL COMMENT '',
+  `fabricante` VARCHAR(45) NULL COMMENT '',
+  `tienda_id_tienda` INT NOT NULL COMMENT '',
+  PRIMARY KEY (`id_categoria`)  COMMENT '')
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `modeloReelacional`.`usuario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `modeloReelacional`.`usuario` (
+  `id_usuario` INT NOT NULL COMMENT '',
+  `nick_usuario` VARCHAR(45) NULL COMMENT '',
+  `password_usuario` VARCHAR(45) NULL COMMENT '',
+  `rol_usurio` VARCHAR(20) NULL COMMENT '',
+  PRIMARY KEY (`id_usuario`)  COMMENT '')
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `modeloReelacional`.`tienda`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `modeloReelacional`.`tienda` (
+  `id_tienda` INT NOT NULL COMMENT '',
+  `nombre_tienda` VARCHAR(45) NULL COMMENT '',
+  `ubicacion` VARCHAR(45) NULL COMMENT '',
+  `tipo` VARCHAR(45) NULL COMMENT '',
+  `ventas` VARCHAR(45) NULL COMMENT '',
+  `stock` VARCHAR(45) NULL COMMENT '',
+  PRIMARY KEY (`id_tienda`)  COMMENT '')
+ENGINE = InnoDB;
