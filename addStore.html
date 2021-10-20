@@ -20,7 +20,7 @@
               <a href="index.html">Home</a>
             </li>
             <li>
-              <a href="categories.html">Categories</a>
+              <a href="categories.html" onclick="return false;">Categories</a>
             </li>
             <li>
               <a href="stores.html">Stores</a>
@@ -40,8 +40,8 @@
         <div class="card-add-store">
           <div class="titulo">Add Store</div>
           <div class="card2-add-store">
-            <form action="">
-              <span>Code</span>
+            <form id="form">
+              <span id="sp1">Code</span>
               <input class="inp" type="text" placeholder=" Ej: 01145" />
               <span>Description</span>
               <input class="inp" type="text" placeholder=" Ej: Filament up" />
@@ -64,5 +64,6 @@
     <footer>
       <p>Todos los derechos reservados. Mision TIC 2020</p>
     </footer>
+    <script src="addstore.js"></script>
   </body>
 </html>
