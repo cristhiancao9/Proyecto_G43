@@ -20,13 +20,13 @@
               <a href="index.html">Home</a>
             </li>
             <li>
-              <a href="categories.html">Categories</a>
+              <a href="categories.html" onclick="return false;">Categories</a>
             </li>
             <li>
               <a href="stores.html">Stores</a>
             </li>
             <li>
-              <a href="report.html">Report</a>
+              <a href="">Report</a>
             </li>
             <li>
               <a href="">Exit</a>
@@ -37,13 +37,26 @@
     </div>
     <section class="img-principal">
       <div class="contenedor-img">
-        <div class="card">
-          <div class="card2">
-            <a class="boton" href="addStore.html">Add Stores</a>
+        <div class="card-add-store">
+          <div class="titulo">Add Store</div>
+          <div class="card2-add-store">
+            <form id="form">
+              <span id="sp1">Code</span>
+              <input class="inp" type="text" placeholder=" Ej: 01145" />
+              <span>Description</span>
+              <input class="inp" type="text" placeholder=" Ej: Filament up" />
+              <span>Unit Price</span>
+              <input class="inp" type="text" placeholder=" Ej: $3100" />
+              <span>Maker</span>
+              <input class="inp" type="text" placeholder=" Ej: Copper Ltda" />
+              <span>Batch</span>
+              <input class="inp" type="text" placeholder=" Ej: 450" />
+              <div>
+                <input class="btn2" type="submit" value="Add Stores" />
+              </div>
+            </form>
           </div>
-          <div class="card3">
-            <a class="boton" href="addCategories.html">Add Categories</a>
-          </div>
+          <div class="card3"></div>
         </div>
       </div>
     </section>
@@ -51,5 +64,6 @@
     <footer>
       <p>Todos los derechos reservados. Mision TIC 2020</p>
     </footer>
+    <script src="addstore.js"></script>
   </body>
 </html>
