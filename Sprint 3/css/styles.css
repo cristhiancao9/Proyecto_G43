@@ -1,0 +1,204 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px; /*1 rem -- 10px*/
+  background-image: linear-gradient(to top, #828282 0%, #131212);
+  margin: 0;
+  padding: 0;
+}
+.nav-bg {
+  background-color: hsla(224, 81%, 45%, 0.98);
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 25px 15px;
+  font-weight: bold;
+}
+.content-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.navegacion-principal {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .navegacion-principal {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.navegacion-principal a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  font-family: cursive;
+  font-size: 1.8rem;
+}
+.nav-bg a:hover {
+  /* background-color: #126ed8; */
+  background-color: turquoise;
+}
+.contenedor {
+  max-width: 120rem;
+  margin: 0rem auto 0rem auto;
+}
+.img-principal {
+  background-image: url("../img/img_principal2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+
+  position: relative;
+}
+.contenedor-img {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boton {
+  background-color: turquoise;
+  color: white;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  width: 90%;
+  text-align: center;
+}
+.boton:hover {
+  background-color: #126ed8;
+}
+@media (min-width: 768px) {
+  .boton {
+    width: auto;
+  }
+}
+.card {
+  margin-top: 200px;
+  background-image: url("../img/img_principal3.jpg");
+  width: 17rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  border: 5px solid hsla(224, 81%, 45%, 0.98);
+  border-radius: 15px;
+  box-shadow: -1rem 0 3rem black;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.card3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  background: hsla(224, 81%, 45%, 0.98);
+  padding: 5px;
+  font-weight: 700;
+}
+/*---------Add Store---------*/
+.card-add-store {
+  margin-top: 170px;
+  background-image: url("../img/img_principal3.jpg");
+  width: 40rem;
+  height: 35rem;
+  border-radius: 0.5rem;
+  border: 5px solid hsla(224, 81%, 45%, 0.98);
+  border-radius: 15px;
+  box-shadow: -1rem 0 3rem black;
+}
+.inp {
+  width: 17rem;
+  height: 2rem;
+}
+.card2-add-store {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+}
+.titulo {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2rem;
+  /*   color: hsla(224, 81%, 45%, 0.98); */
+  color: white;
+}
+form {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 12px;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 115px;
+  margin-top: 30px;
+  color: white;
+  font-family: cursive;
+  background-color: turquoise;
+  border-radius: 0.7rem;
+}
+/*-----------------Login--------------------*/
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card2-add-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: white;
+  font-weight: bold;
+}
