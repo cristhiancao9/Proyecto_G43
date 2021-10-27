@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIA - inicio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Se trae los el enlace de Bootstrap de css de Bootstrap. --> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <!-- para que el mb(margin bottom) sea 2 y cuando
+            se visualice en un lg (portátil o dispositivo de mayor amplitud de pixeles el mb sea de 0). -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Estudiantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Docentes</a>
+            </li>
+            <!-- Se crea este nuevo enlace, para la opción del enlace Salir-->
+            <!--A todas las clases que se llama navbarNavDropdown
+            se le coloca navbarText, no se hace Dropdown porque no se va a
+            trabajar con enlaces que despliegan otros enlaces. -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Salir</a>
+            </li>
+          </ul>
+          <span class="navbar-text ms-auto">
+            <!-- ms->margin start auto para que se alinee y queda
+              el nombre Sistema de Información Académica a a derecha, no queda pegada
+              del enlace Inicio.-->
+            Sistema de información Académico.
+          </span>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 alinear">
+         <!-- aqui vamos a crear los enlaces -->
+          <p>¡Bienvenido al sistema! Son las HH:MM</p>
+          <a href="#" class="btn btn-primary">Estudiantes</a>
+          <a href="#" class="btn btn-primary">Docentes</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Se trae los dos enlaces de JS y POPPERS de Bootstrap. -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
