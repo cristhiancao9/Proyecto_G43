@@ -1,0 +1,32 @@
+.container {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  background-color: darksalmon;
+  border-radius: 15px;
+}
+.container2 {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  background-color: darksalmon;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  flex-wrap: wrap;
+}
+.container-principal-nav {
+  background-color: rgb(248, 192, 192);
+  display: flex;
+  border-radius: 4px;
+}
+.container-secundario ul {
+  flex-direction: row;
+}
+.title {
+  color: white;
+  padding-right: 3.2rem;
+  padding-left: 3.2rem;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
