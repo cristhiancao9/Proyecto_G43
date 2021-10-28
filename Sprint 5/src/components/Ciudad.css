@@ -1,0 +1,63 @@
+.container2 {
+  margin: 20px;
+  width: 28rem;
+  height: 32rem;
+  border-radius: 0.9rem;
+  background: none;
+  color: aliceblue;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+.ciudad {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.principal-ciu {
+  display: flex;
+  flex-direction: column;
+}
+.img-clima {
+  display: flex;
+  justify-content: center;
+}
+.principal-columnas {
+  display: flex;
+  flex-direction: row;
+}
+.titulos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.temp {
+  margin-top: 1.5rem;
+}
+.cant {
+  margin-top: 1.5rem;
+}
+.lat {
+  margin-top: 1.5rem;
+}
+.long {
+  margin-top: 1.5rem;
+}
+.iconos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+}
+.valores {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.titulo {
+  padding-top: 1rem;
+}
